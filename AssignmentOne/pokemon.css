@@ -1,0 +1,12 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+div{
+	width: 970px;
+	margin: 0px auto;
+}
+img{
+	height: 100px;
+	width: 100px;
+}
