@@ -6,15 +6,16 @@
 		<script type="text/javascript" src='http://code.jquery.com/jquery-1.10.2.min.js'></script>
 		<script type="text/javascript">
 			$(document).ready(function(){
+				var pokemon = "";
 				for(var i = 1; i < 152; i++){
-					$('#pokemon').append("<img src='http://pokeapi.co/media/img/" + i + ".png'>")
+					pokemon += "<img src='http://pokeapi.co/media/img/" + i + ".png'>";
 				}
+				$('#pokemon').html(pokemon);
 			})
 		</script>
 		<link rel="stylesheet" type="text/css" href="pokemon.css">
 	</head>
 	<body>
-		<div id="pokemon">
-		</div>
+		<div id="pokemon"></div>
 	</body>
 </html>
